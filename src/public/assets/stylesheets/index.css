@@ -1,0 +1,95 @@
+/* -------------------  MOBILE  --------------------- */
+@import "./resets.css";
+
+body {
+  display: flex;
+  flex-direction: column;
+  font-family: Arial;
+  min-height: 100vh;
+  background-color: rgb(78, 207, 216);
+}
+
+main {
+  max-width: 1200px;
+  margin: auto;
+  padding: 20px 0;
+}
+header {
+  /* header styles */
+  text-align: center;
+}
+
+.tab.active {
+  background: rgb(241, 67, 76);
+  border-bottom: 6px solid rgb(22, 125, 173);
+}
+.tab:active {
+  background: rgb(97, 255, 202);
+}
+.tab {
+  padding: 1em;
+  margin-bottom: 0;
+  width: 100%;
+  font-weight: bold;
+  font-size: 0.8em;
+  background: rgb(101, 204, 101);
+}
+
+.tab-container {
+  margin-top: 70px;
+  display: flex;
+  background: rgb(167, 34, 34);
+  justify-content: space-around;
+  text-align: center;
+  position: sticky;
+}
+
+.tab:hover {
+  cursor: pointer;
+  background: rgb(230, 215, 88);
+}
+
+.info {
+  padding: 1em;
+}
+
+strong {
+  font-size: 1.5em;
+  color: rgb(126, 63, 5);
+}
+
+.main-rover-img {
+  width: 100%;
+  height: auto;
+  border-radius: 100%;
+}
+
+.rover-image {
+  width: 100%;
+  height: auto;
+}
+.image-card {
+  width: 100%;
+  max-width: 200px;
+  padding: 1em;
+  border-radius: 6px;
+  background: rgb(229, 220, 130);
+  margin: 1em auto;
+}
+
+.image-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* -------------------  TABLET and Desktop --------------------- */
+@media (min-width: 768px) {
+  /* use mobile */
+  .tab {
+    font-size: 1.2em;
+  }
+
+  .info-container {
+    flex-wrap: nowrap;
+  }
+}

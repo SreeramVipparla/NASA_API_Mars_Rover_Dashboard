@@ -16,4 +16,4 @@ In this project I have created a NASA Mars Rover Dashboard that consumes the NAS
 
 3. Run `yarn start`, and make sure no error occurs.
 
-4. Go to http:localhost:3000 to preiew the dashboard.
+4. Go to `http:localhost:3000` to preview the dashboard.
